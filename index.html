@@ -8,6 +8,69 @@
 				<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
 					<style>
+						.contact-info{
+						max-width:700px;
+						margin:auto;
+						display:flex;
+						flex-direction:column;
+						gap:20px;
+						}
+
+						.contact-card{
+						background:var(--card);
+						padding:20px;
+						border-radius:15px;
+						display:flex;
+						align-items:center;
+						gap:20px;
+						}
+
+						.contact-icon{
+						width:50px;
+						height:50px;
+						object-fit:contain;
+						}
+
+						.contact-card h3{
+						margin:0 0 5px 0;
+						}
+
+						.contact-card p{
+						margin:0;
+						color:var(--gray);
+						}
+
+						#videos{
+
+						padding:80px 0;
+
+						}
+
+
+
+						.card iframe{
+
+						width:100%;
+						height:220px;
+						border:none;
+
+						}
+
+
+
+						.card{
+
+						overflow:hidden;
+
+						}
+
+
+
+						.card iframe{
+
+						border-radius:20px 20px 0 0;
+
+						}
 
 						:root{
 						--bg:#050816;
@@ -314,7 +377,7 @@
 
 				<p>
 					Desarrollo aplicaciones modernas con C#, HTML5,
-			JavaScript y tecnologías cloud. Tambien videojuegos con Unity y Godot Engine.
+			JavaScript y QA Testing Manual. Tambien videojuegos con Unity, RPG Maker y Godot Engine.
 				</p>
 
 				<a href="#proyectos" class="btn">
@@ -332,10 +395,18 @@
 			</h2>
 
 			<p class="about">
-				Desarrollador Web y de Videojuegos con experiencia en HTML5, CSS, JavaScript, Unity y Godot Engine. 
-				 Especializado en la creación de sitios web interactivos, interfaces modernas y videojuegos 2D/3D.
-				 Apasionado por el desarrollo de experiencias digitales innovadoras, combinando diseño, programación
-				 y creatividad para construir proyectos funcionales y atractivos.
+				Hola, mi nombre es Santiago Sánchez, tengo 20 años y soy de Argentina. Actualmente estoy estudiando la Licenciatura en Producción y Desarrollo de Videojuegos en la Universidad Nacional de José C. Paz (UNPAZ), una carrera que me permitió descubrir que la programación y el desarrollo de videojuegos es a lo que quiero dedicarme.
+
+				Desde que empecé a estudiar, fui aprendiendo distintas herramientas y tecnologías para desarrollar páginas web y videojuegos. Tengo conocimientos en HTML, CSS, JavaScript, Unity y Godot Engine, y me gusta seguir aprendiendo cosas nuevas para mejorar en cada proyecto que realizo.
+
+				Además, realicé un curso de QA Manual Testing en Coderhouse, donde aprendí sobre el proceso de pruebas de software, la detección de errores y la importancia de crear aplicaciones y videojuegos con una buena calidad antes de ser publicados.
+
+				Soy una persona curiosa, responsable y con muchas ganas de seguir creciendo como desarrollador. Me gusta enfrentar nuevos desafíos, aprender de cada experiencia y trabajar en proyectos que me permitan poner en práctica mis conocimientos mientras sigo adquiriendo nuevas habilidades.
+
+				En esta página vas a encontrar algunos de los videojuegos y proyectos que fui desarrollando tanto durante mi carrera como de forma personal. Cada uno de ellos representa una oportunidad de aprendizaje y refleja mi crecimiento como estudiante y desarrollador.
+
+				Mi objetivo es seguir formándome profesionalmente, adquirir experiencia en la industria del desarrollo de software y videojuegos, y participar en proyectos donde pueda aportar mis conocimientos, aprender de otros profesionales y seguir mejorando día a día.
+
 			</p>
 
 		</section>
@@ -374,8 +445,13 @@
 				</div>
 
 				<div class="skill">
-					<i class="fa-brands fa-css3-alt"></i>
-					<h3>CSS3</h3>
+					<i class="fa-solid fa-star"></i>
+					<h3>RPG MAKER</h3>
+				</div>
+				
+				<div class="skill">
+					<i class="fa-solid fa-gear"></i>
+					<h3>QA Testing Manual</h3>
 				</div>
 
 			</div>
@@ -384,65 +460,53 @@
 
 		<section id="proyectos">
 
-			<h2 class="section-title">
-				Proyectos
-			</h2>
+			<h2 class="section-title">Proyectos</h2>
 
 			<div class="projects">
 
 				<div class="card">
 					<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/6ded0954-c083-45cf-a8e5-b47390e9b280/d54whq5-dfa4017e-8775-4503-bdc2-fe37136d9e98.png/v1/fill/w_256,h_256,q_80,strp/rpg_maker_xp_hd_icon_by_starwingcorona_d54whq5-fullview.jpg">
+
 						<div class="card-content">
-							<h3>RPG Maker XP</h3>
+							<h3>Rise of the Troll King</h3>
 							<p>Desarrollo en equipo de un videojuego en RPG Maker XP.</p>
-							<a class="btn" href="https://drive.google.com/file/d/17Mh5FUfYwZeD-OVaN_4ZyqGi3_yxUsqV/view">Ver más</a>
+							<a class="btn" href="https://santiagoit.itch.io/rise-of-the-troll-king">
+								Descargar
+							</a>
+							<a class="btn" href="https://docs.google.com/document/d/13-sWr5wpSCcrqm4Qlo18WDhqX-QhR0CPefx4oA1XQ_8/edit?usp=sharing"
+								style="background-color: black; color: white;">
+								Documentación
+								del Juego
+							</a>
 						</div>
 					</div>
 
 				<div class="card">
 					<img src="https://tse3.mm.bing.net/th/id/OIP.vcQcGKEvUa8rwZ6IZnYCGQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
+
 						<div class="card-content">
-							<h3>Unity</h3>
+							<h3>Ninja Block</h3>
 							<p>Desarrollo en equipo de un videojuego en Unity.</p>
-							<a class="btn" href="#">Ver más</a>
+							<a class="btn" href="#">
+								Descargar
+							</a>
+							<a class="btn" href="https://docs.google.com/document/d/1ZGmBPGQwfWrT3HDbkUtZU1F_e_xnYvgLwrheNmELZIY/edit?usp=sharing"style="background-color: black; color: white;">
+								Documentación del Juego
+							</a>
 						</div>
 					</div>
 
 				<div class="card">
 					<img src="https://amador.edu.do/wp-content/uploads/2020/11/scratch.png">
+
 						<div class="card-content">
-							<h3>Scratch</h3>
+							<h3>Master Of Penalties</h3>
 							<p>Desarrollo un videojuego en Scratch.</p>
-							<a class="btn" href="https://scratch.mit.edu/projects/1292927727">Ver más</a>
-						</div>
-					</div>
-				<div class="card">
-					<img src="https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg">
-						<div class="card-content">
-							<h3>Gameplay del Proyecto</h3>
-							<p>Video demostrativo del desarrollo y funcionamiento del videojuego.</p>
-							<a class="btn" href="https://www.youtube.com/watch?v=TU_VIDEO" target="_blank">
-								Ver video
+							<a class="btn" href="https://scratch.mit.edu/projects/1292927727">
+								Jugar
 							</a>
-						</div>
-					</div>
-				<div class="card">
-					<img src="https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg">
-						<div class="card-content">
-							<h3>Gameplay del Proyecto</h3>
-							<p>Video demostrativo del desarrollo y funcionamiento del videojuego.</p>
-							<a class="btn" href="https://www.youtube.com/watch?v=TU_VIDEO" target="_blank">
-								Ver video
-							</a>
-						</div>
-					</div>
-				<div class="card">
-					<img src="https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg">
-						<div class="card-content">
-							<h3>Gameplay del Proyecto</h3>
-							<p>Video demostrativo del desarrollo y funcionamiento del videojuego.</p>
-							<a class="btn" href="https://www.youtube.com/watch?v=TU_VIDEO" target="_blank">
-								Ver video
+							<a class="btn" href="https://docs.google.com/document/d/1_nYJinHPr8m1VYDTG2seJh9eTGLDlHs6lnNp_X33yl4/edit?usp=sharing"style="background-color: black; color: white;">
+								Documentación del Juego
 							</a>
 						</div>
 					</div>
@@ -451,30 +515,115 @@
 
 		</section>
 
+		<section id="videos">
+
+			<h2 class="section-title">
+				Videos, Tutoriales y Demostraciones
+			</h2>
+
+			<div class="projects">
+
+				<!-- RPG MAKER -->
+				<div class="card">
+					<iframe
+						src="https://youtu.be/eoyL9uwLu4E"
+						allowfullscreen="">
+					</iframe>
+
+					<div class="card-content">
+						<h3>Rise of the Troll King</h3>
+						<p>Tutorial y demostración del proyecto realizado.</p>
+
+						<a class="btn"
+						   href="https://youtu.be/eoyL9uwLu4E"
+						   target="_blank">
+							Ver video
+						</a>
+					</div>
+				</div>
+
+
+				<!-- UNITY -->
+				<div class="card">
+					<iframe
+						src="https://youtu.be/aqELlANfAew"
+						allowfullscreen="">
+					</iframe>
+
+					<div class="card-content">
+						<h3>Ninja Block</h3>
+						<p>Gameplay y demostración del videojuego desarrollado en Unity.</p>
+
+						<a class="btn"
+						   href="https://youtu.be/aqELlANfAew"
+						   target="_blank">
+							Ver video
+						</a>
+					</div>
+				</div>
+
+				<!-- SCRATCH -->
+				<div class="card">
+					<iframe
+						src="https://youtu.be/4xnai9FI1eI"
+						allowfullscreen="https://youtu.be/4xnai9FI1eI">
+					</iframe>
+
+					<div class="card-content">
+						<h3>Master Of Penalties</h3>
+						<p>Demostración del videojuego creado en Scratch.</p>
+
+						<a class="btn"
+						   href="https://youtu.be/4xnai9FI1eI"
+						   target="_blank">
+							Ver video
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
 		<section id="contacto">
 
 			<h2 class="section-title">
 				Contacto
 			</h2>
 
-			<div class="contact">
-				<form id="contactForm">
+			<div class="contact-info">
 
-					<input type="text" id="nombre" placeholder="Nombre" required="">
+				<div class="contact-card">
 
-						<input type="email" id="email" placeholder="Correo electrónico" required="">
+					<img class="contact-icon"
+						 src="https://www.liblogo.com/img-logo/gm453g82d-gmail-logo-gmail-new-logo-free-icon-of-google-new-logos.png"
+						 alt="Correo">
 
-							<textarea id="mensaje" rows="6" placeholder="Mensaje" required=""></textarea>
+						<div>
+							<h3>Correo Electrónico</h3>
+							<p>sanchezsantiago.fe@gmail.com</p>
+						</div>
 
-							<button type="submit">
-								Enviar mensaje
-							</button>
+					</div>
 
-						</form>
+				<div class="contact-card">
 
+					<img class="contact-icon"
+						 src="https://st2.depositphotos.com/8199704/48018/i/450/depositphotos_480180356-stock-photo-phone-icon-flat-design-illustration.jpg"
+						 alt="Teléfono">
+
+						<div>
+							<h3>Teléfono</h3>
+							<p>+54 1123417131</p>
+						</div>
+
+					</div>
+
+			</div>
+
+		</section>
 				<div class="socials">
 
-					<a href="#">
+					<a href="https://github.com/SantiagoSanchezIT?tab=overview&from=2026-06-01&to=2026-06-25">
 						<i class="fa-brands fa-github"></i>
 					</a>
 					<a href="https://www.linkedin.com/in/santiago-sanchez-a4506931b/">
@@ -533,50 +682,6 @@
 			});
 
 		</script>
-		<script>
-
-			<script>
-
-				emailjs.init({
-				publicKey: "TU_PUBLIC_KEY"
-				});
-
-				const formulario = document.getElementById("contactForm");
-				const estado = document.getElementById("estado");
-
-				formulario.addEventListener("submit", function(e){
-
-				e.preventDefault();
-
-				estado.textContent = "Enviando mensaje...";
-
-				emailjs.send(
-				"TU_SERVICE_ID",
-				"TU_TEMPLATE_ID",
-				{
-				from_name: document.getElementById("nombre").value,
-				from_email: document.getElementById("email").value,
-				message: document.getElementById("mensaje").value
-				}
-				)
-				.then(function(){
-
-				estado.textContent = "✅ Mensaje enviado correctamente";
-				formulario.reset();
-
-				})
-				.catch(function(error){
-
-				estado.textContent = "❌ Error al enviar el mensaje";
-				console.error("Error:", error);
-
-				});
-
-				});
-
-			</script>
-
-		</script>
-
+		
 	</body>
 </html>
